@@ -1,0 +1,15 @@
+:root {
+  --clr-primary-darkCyan: hsl(185, 75%, 39%);
+  --clr-primary-veryDarkSaturatedBlue: hsl(229, 23%, 23%);
+  --clr-primary-darkGrayishBlue: hsl(227, 10%, 46%);
+
+  --clr-neutral-darkGray: hsl(0, 0%, 59%);
+
+  --clr-white: hsl(0, 0%, 100%);
+}
+
+$main-background: var(--clr-primary-darkCyan);
+$card-background: var(--clr-white);
+
+$color-primary: var(--clr-primary-veryDarkSaturatedBlue);
+$color-secondary: var(--clr-primary-darkGrayishBlue);

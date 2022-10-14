@@ -1,10 +1,5 @@
-:root {
-  --clr-primary-darkCyan: hsl(185, 75%, 39%);
-  --clr-primary-veryDarkSaturatedBlue: hsl(229, 23%, 23%);
-  --clr-primary-darkGrayishBlue: hsl(227, 10%, 46%);
-  --clr-neutral-darkGray: hsl(0, 0%, 59%);
-  --clr-white: hsl(0, 0%, 100%);
-}
+@use '../utils' as u;
+@use 'color' as c;
 
 /* Box sizing rules */
 *,
@@ -21,8 +16,8 @@
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role=list],
-ol[role=list] {
+ul[role='list'],
+ol[role='list'] {
   list-style: none;
 }
 
@@ -39,15 +34,14 @@ body {
 /* Set core body defaults */
 body {
   text-rendering: optimizeSpeed;
-  background-color: var(--clr-primary-darkCyan);
-  font-family: "Kumbh Sans", sans-serif;
-  color: var(--clr-primary-darkGrayishBlue);
+  background-color: c.$main-background;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: c.$color-secondary;
 }
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
-  -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 
 /* Make images easier to work with */
@@ -63,14 +57,13 @@ svg {
   html:focus-within {
     scroll-behavior: auto;
   }
+
   *,
-*::before,
-*::after {
-    -webkit-animation-duration: 0.01ms !important;
-            animation-duration: 0.01ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}/*# sourceMappingURL=style.css.map */
+}
