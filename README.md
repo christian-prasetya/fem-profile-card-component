@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component solution
 
-This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -22,87 +22,50 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### The challenge
 
-- Build out the project to the designs provided
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Desktop Solution](solution/desktop-solution.png)
+![Mobile Solution](solution/mobile-solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Go to my solution site](https://www.frontendmentor.io/solutions/mobile-first-responsive-profile-card-component--GCF-DGAY7)
+- Live Site URL: [Go to the live site](https://christian-prasetya.github.io/fem-profile-card-component/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS Custom Properties
+- [SaSS](https://sass-lang.com/) - CSS Preprocessor
+- [BEM Styling](https://getbem.com/) - CSS Block, Element, Modifier styling style
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Andy Bell Modern CSS Reset](https://piccalil.li/blog/a-modern-css-reset/) - For basic style reset, with some modification
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I started this challenge to improve my web content structuring and advanced styling in mind. That's why I challenged myself to create the styling using Sass and BEM method.
 
-To see how you can add code snippets, see below:
+It was hard at first, and this is really my first time using Sass. Most of the time when I do challenge from frontend mentor, I always use vanilla CSS.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+I learned so much about advanced CSS styling by using this Sass method:
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- I learn how to plan my styling by using so many partial Scss/Sass file.
+- I learn how to use variables in Sass
+- I learn how to use @mixin, function, and so many more
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I also learn how to create a styling using BEM method, which is using block, element, and modifier classes, eventhough maybe the class attribute looking little bit cramped with lots of classes, but it does the job when you styling.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- GitHub - [christian-prasetya](https://github.com/christian-prasetya)
+- Frontend Mentor - [@christian-prasetya](https://www.frontendmentor.io/profile/christian-prasetya)
+- Instagram - [@cprasetya28](https://www.instagram.com/cprasetya28)
+- Showwcase - [@cprasetya28](https://www.showwcase.com/cprasetya28)
