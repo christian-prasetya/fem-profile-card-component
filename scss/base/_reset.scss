@@ -41,15 +41,16 @@ body {
   background-color: c.$main-background;
   font-family: 'Kumbh Sans', sans-serif;
   color: c.$color-secondary;
-  background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
-  background-position: (500% -40%), (-500% 120%);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  // background-position: (500% -40%), (-500% 120%);\
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
   background-repeat: no-repeat, no-repeat;
-  background-size: u.rem(410), u.rem(410);
+  // background-size: u.rem(410), u.rem(410);
 
-  @include u.breakpoint(large) {
-    background-size: u.rem(919), u.rem(919);
-    background-position: (-50% 2500%), (150% -2000%);
-  }
+  // @include u.breakpoint(large) {
+  //   background-size: u.rem(919), u.rem(919);
+  //   background-position: (-50% 2500%), (150% -2000%);
+  // }
 }
 
 /* A elements that don't have a class get default styles */

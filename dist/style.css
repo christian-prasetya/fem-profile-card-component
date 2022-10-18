@@ -47,16 +47,9 @@ body {
   background-color: var(--clr-primary-darkCyan);
   font-family: "Kumbh Sans", sans-serif;
   color: var(--clr-neutral-darkGray);
-  background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
-  background-position: 500% -40%, -500% 120%;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
   background-repeat: no-repeat, no-repeat;
-  background-size: 25.625rem, 25.625rem;
-}
-@media (min-width: 56.25em) {
-  body {
-    background-size: 57.4375rem, 57.4375rem;
-    background-position: -50% 2500%, 150% -2000%;
-  }
 }
 
 /* A elements that don't have a class get default styles */
