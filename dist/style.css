@@ -137,11 +137,11 @@ main .profile__header-name {
   gap: 0.5625rem;
   margin-bottom: 0.625rem;
 }
-main .profile__header-name h2,
+main .profile__header-name h1,
 main .profile__header-name p {
   font-size: 1.125rem;
 }
-main .profile__header-name h2 {
+main .profile__header-name h1 {
   font-weight: 700;
   color: var(--clr-primary-veryDarkSaturatedBlue);
 }

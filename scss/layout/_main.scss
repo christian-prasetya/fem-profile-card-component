@@ -61,12 +61,12 @@ main {
         gap: u.rem(9);
         margin-bottom: u.rem(10);
 
-        h2,
+        h1,
         p {
           font-size: u.rem(18);
         }
 
-        h2 {
+        h1 {
           font-weight: 700;
           color: b.$color-primary;
         }
