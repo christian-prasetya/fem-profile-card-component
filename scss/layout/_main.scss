@@ -1,0 +1,116 @@
+@use '../base' as b;
+@use '../utils' as u;
+
+main {
+
+  margin-bottom: u.rem(16);
+
+  .card {
+    width: u.rem(327);
+    height: u.rem(375);
+    background-color: b.$card-background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: u.rem(15);
+    box-shadow: 0 u.rem(8) u.rem(20) 0 hsla(0, 0%, 10%, 0.4);
+
+    @include u.breakpoint(large) {
+      width: u.rem(350);
+      height: u.rem(374);
+    }
+  }
+
+  .image {
+    width: 100%;
+    height: u.rem(140);
+
+    img {
+      border-top-left-radius: u.rem(15);
+      border-top-right-radius: u.rem(15);
+    }
+  }
+
+  .profile {
+    position: relative;
+    top: u.rem(-50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__picture {
+      margin-bottom: u.rem(20);
+      background-color: white;
+      border-radius: 50%;
+
+      &-photo {
+        width: u.rem(97);
+        border-radius: 50%;
+        border: 5px solid white;
+      }
+    }
+
+    &__header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: u.rem(25);
+
+      &-name {
+        display: flex;
+        gap: u.rem(9);
+        margin-bottom: u.rem(10);
+
+        h2,
+        p {
+          font-size: u.rem(18);
+        }
+
+        h2 {
+          font-weight: 700;
+          color: b.$color-primary;
+        }
+      }
+    }
+
+    hr {
+      color: b.$border-color;
+      width: u.rem(327);
+      height: u.rem(0.5);
+
+      @include u.breakpoint(large) {
+        width: u.rem(350);
+      }
+    }
+
+    &__stats {
+      display: flex;
+      text-align: center;
+      gap: u.rem(36);
+      align-items: center;
+      padding-top: u.rem(30);
+
+      &-rating {
+
+        h3,
+        p {
+          font-weight: bold;
+        }
+
+        h3 {
+          font-size: u.rem(18);
+          color: b.$color-primary;
+        }
+
+        p {
+          font-size: u.rem(10);
+        }
+      }
+
+      @include u.breakpoint(large) {
+        gap: u.rem(46);
+      }
+    }
+
+  }
+}

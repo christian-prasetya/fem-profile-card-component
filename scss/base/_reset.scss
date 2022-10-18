@@ -34,6 +34,10 @@ body {
 /* Set core body defaults */
 body {
   text-rendering: optimizeSpeed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: c.$main-background;
   font-family: 'Kumbh Sans', sans-serif;
   color: c.$color-secondary;
