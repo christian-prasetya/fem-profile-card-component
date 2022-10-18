@@ -162,11 +162,11 @@ main .profile__stats {
   align-items: center;
   padding-top: 1.875rem;
 }
-main .profile__stats-rating h3,
+main .profile__stats-rating h2,
 main .profile__stats-rating p {
   font-weight: bold;
 }
-main .profile__stats-rating h3 {
+main .profile__stats-rating h2 {
   font-size: 1.125rem;
   color: var(--clr-primary-veryDarkSaturatedBlue);
 }
